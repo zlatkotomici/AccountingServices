@@ -135,3 +135,9 @@
   max-width: 25%;
   padding: 0 4px;
 }
+
+/* Section blog */
+/* .flex-columns .flex-reverse */
+.flex-columns.flex-reverse .row {
+  flex-direction: row-reverse;
+}
