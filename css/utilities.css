@@ -141,3 +141,8 @@
 .flex-columns.flex-reverse .row {
   flex-direction: row-reverse;
 }
+
+/* Section team */
+.team img {
+  border-radius: 5%;
+}
