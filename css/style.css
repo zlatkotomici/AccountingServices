@@ -22,7 +22,8 @@ a {
   text-decoration: none;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: 300;
   line-height: 1.2;
 }
@@ -48,6 +49,7 @@ img {
   position: fixed;
   top: 0px;
   padding: 0 30px;
+  transition: 0.5s;
 }
 
 .navbar.top {
@@ -209,7 +211,7 @@ img {
   color: #fff;
 }
 
-.footer .social > * {
+.footer .social>* {
   margin-right: 30px;
 }
 
@@ -237,7 +239,8 @@ img {
     flex-direction: column;
   }
 
-  .flex-columns .column, .flex-grid .column {
+  .flex-columns .column,
+  .flex-grid .column {
     flex: 100%;
     max-width: 100%;
   }
